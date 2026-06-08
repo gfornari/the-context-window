@@ -7,7 +7,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://gfornari.github.io',
-	base: '/the-context-window',
+	base: '/the-context-window/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
